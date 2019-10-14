@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+
+.box{
+    
+    width: 750px;
+    height: 510px;
+    box-sizing: border-box;
+    border: 15px solid black;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: url(e.jpg);
+    background-size: cover;
+}
+
+.box:hover{
+        -webkit-animation:wap 4s infinite;
+    -o-animation:wap 20s infinite;
+    -moz-animation:wap 20s infinite;
+    animation:wap 20s infinite;
+    
+}
+
+
+     @-webkit-keyframes wap{
+   0%{
+       background-position: top 5000px left;
+       
+         }
+}
+
+    @-o-keyframes wap{
+   0%{
+       background-position: top 5000px left;
+       
+         }
+}
+
+    @-moz-keyframes wap{
+   0%{
+       background-position: top 5000px left;
+       
+         }
+}
+
+    @keyframes wap{
+   0%{
+       background-position: top 5000px left;
+       
+         }
+}

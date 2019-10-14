@@ -1,0 +1,30 @@
+@charset "utf-8";
+    
+    h1{
+        float: left;
+        font-size: 400px;
+        padding: 0;
+        margin: 0;
+        color: white;
+        -weblit-animation:text 3s infinite;
+        -o-animation:text 3s infinite;
+        -moz-animation:text 3s infinite;
+        animation: text 3s infinite;
+}
+
+
+@keyframes text{
+    
+    50%{
+        
+        color: red;
+    }
+}
+
+.text2{
+    animation-delay: 0.5s;
+}
+
+.text3{
+    animation-delay: 1s;
+}

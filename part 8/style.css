@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+
+.slider-page{
+    
+    width: 720px;
+    height: 480px;
+    box-sizing: border-box;
+    border: 5px solid #ccc;
+    margin: 0 auto;
+    margin-top: 100px;
+    -webkit-box-shadow:0px 0px 15px green;
+    -o-box-shadow:0px 0px 15px green;
+    -moz-box-shadow:0px 0px 15px green;
+    box-shadow:0px 0px 15px green;
+   position: relative;
+overflow: hidden;
+    
+}
+
+
+.dot-box{
+    
+    width: 250px;
+    height: 60px;
+    box-sizing: border-box;
+    float: left;
+    position: absolute;
+    bottom: 0;
+       z-index: 1;
+    left: 30%;
+}
+
+.dot-1,.dot-2,.dot-3,.dot-4,.dot-5{
+    
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    float: left;
+    margin: 8px;
+    background-color: white;
+    
+}
+
+.slider{
+    
+width: 3600px;
+    height: 480px;
+    box-sizing: border-box;
+    float: left;
+    background-color: red;
+    position: relative;
+    
+     -webkit-animation: slide 10s infinite;
+    -o-animation: slide 10s infinite;
+    -moz-animation: slide 10s infinite;
+    animation: slide 10s infinite;
+}
+
+
+@-webkit-keyframes slide{
+    
+    0%{top: 0; left: 0;}
+    10%{top: 0; left: -720px;}
+    20%{top: 0; left: -720px;}
+    30%{top: 0; left: -1440px;}
+    40%{top: 0; left: -1440px;}
+    50%{top: 0; left: -2160px;}
+    60%{top: 0; left: -2160px;}
+    70%{top: 0; left: -2880px;}
+    80%{top: 0; left: -2880px;}
+    100%{top: 0; left: -2880px;}
+}
+@-o-keyframes slide{
+    
+    0%{top: 0; left: 0;}
+    10%{top: 0; left: -720px;}
+    20%{top: 0; left: -720px;}
+    30%{top: 0; left: -1440px;}
+    40%{top: 0; left: -1440px;}
+    50%{top: 0; left: -2160px;}
+    60%{top: 0; left: -2160px;}
+    70%{top: 0; left: -2880px;}
+    80%{top: 0; left: -2880px;}
+    100%{top: 0; left: -2880px;}
+}
+@-moz-keyframes slide{
+    
+    0%{top: 0; left: 0;}
+    10%{top: 0; left: -720px;}
+    20%{top: 0; left: -720px;}
+    30%{top: 0; left: -1440px;}
+    40%{top: 0; left: -1440px;}
+    50%{top: 0; left: -2160px;}
+    60%{top: 0; left: -2160px;}
+    70%{top: 0; left: -2880px;}
+    80%{top: 0; left: -2880px;}
+    100%{top: 0; left: -2880px;}
+}
+@keyframes slide{
+    
+    0%{top: 0; left: 0;}
+    10%{top: 0; left: -720px;}
+    20%{top: 0; left: -720px;}
+    30%{top: 0; left: -1440px;}
+    40%{top: 0; left: -1440px;}
+    50%{top: 0; left: -2160px;}
+    60%{top: 0; left: -2160px;}
+    70%{top: 0; left: -2880px;}
+    80%{top: 0; left: -2880px;}
+    100%{top: 0; left: -2880px;}
+}
+.img{
+    
+    background-size: cover;
+    float: left;
+}
+
+
+.dot-1{
+    
+    -webkit-animation: dot-one 10s infinite;
+    -o-animation: dot-one 10s infinite;
+    -moz-animation: dot-one 10s infinite;
+    animation: dot-one 10s infinite;
+}
+
+@-webkit-keyframes dot-one{
+    
+    0%{background: white;}
+    20%{background: black;}
+    21%{background: white;}
+    100%{background: white;}
+}
+@-o-keyframes dot-one{
+    
+    0%{background: white;}
+    20%{background: black;}
+    21%{background: white;}
+    100%{background: white;}
+}
+@-moz-keyframes dot-one{
+    
+    0%{background: white;}
+    20%{background: black;}
+    21%{background: white;}
+    100%{background: white;}
+}
+@keyframes dot-one{
+    
+    0%{background: white;}
+    20%{background: black;}
+    21%{background: white;}
+    100%{background: white;}
+}
+
+.dot-2{
+    
+    -webkit-animation: dot-two 10s infinite;
+    -o-animation: dot-two 10s infinite;
+    -moz-animation: dot-two 10s infinite;
+    animation: dot-two 10s infinite;
+}
+
+
+@-webkit-keyframes dot-two{
+    
+    0%{background: white;}
+    20%{background: white;}
+    30%{background: black;}
+    40%{background: black;}
+    41%{background: white;}
+    100%{background: white;}
+}
+@-o-keyframes dot-two{
+    
+    0%{background: white;}
+    20%{background: white;}
+    30%{background: black;}
+    40%{background: black;}
+    41%{background: white;}
+    100%{background: white;}
+}
+@-moz-keyframes dot-two{
+    
+    0%{background: white;}
+    20%{background: white;}
+    30%{background: black;}
+    40%{background: black;}
+    41%{background: white;}
+    100%{background: white;}
+}
+@keyframes dot-two{
+    
+    0%{background: white;}
+    20%{background: white;}
+    30%{background: black;}
+    40%{background: black;}
+    41%{background: white;}
+    100%{background: white;}
+}
+
+.dot-3{
+    
+    -webkit-animation: dot-three 10s infinite;
+    -o-animation: dot-three 10s infinite;
+    -moz-animation: dot-three 10s infinite;
+    animation: dot-three 10s infinite;
+}
+
+
+@keyframes dot-three{
+    
+    0%{background: white;}
+    20%{background: white;}
+    30%{background: white;}
+    40%{background: white;}
+    50%{background: black;}
+    60%{background: black;}
+    61%{background: white;}
+    100%{background: white;}
+}
+@-o-keyframes dot-three{
+    
+    0%{background: white;}
+    20%{background: white;}
+    30%{background: white;}
+    40%{background: white;}
+    50%{background: black;}
+    60%{background: black;}
+    61%{background: white;}
+    100%{background: white;}
+}
+@-moz-keyframes dot-three{
+    
+    0%{background: white;}
+    20%{background: white;}
+    30%{background: white;}
+    40%{background: white;}
+    50%{background: black;}
+    60%{background: black;}
+    61%{background: white;}
+    100%{background: white;}
+}
+@keyframes dot-three{
+    
+    0%{background: white;}
+    20%{background: white;}
+    30%{background: white;}
+    40%{background: white;}
+    50%{background: black;}
+    60%{background: black;}
+    61%{background: white;}
+    100%{background: white;}
+}
+
+.dot-4{
+    
+    -webkit-animation: dot-four 10s infinite;
+    -o-animation: dot-four 10s infinite;
+    -moz-animation: dot-four 10s infinite;
+    animation: dot-four 10s infinite;
+}
+
+
+@keyframes dot-four{
+    
+    0%{background: white;}
+    20%{background: white;}
+    30%{background: white;}
+    40%{background: white;}
+    50%{background: white;}
+    60%{background: white;}
+    70%{background: black;}
+    80%{background: black;}
+    81%{background: white;}
+    100%{background: white;}
+}
+
+.dot-5{
+    
+    -webkit-animation: dot-five 10s infinite;
+    -o-animation: dot-five 10s infinite;
+    -moz-animation: dot-five 10s infinite;
+    animation: dot-five 10s infinite;
+}
+
+
+@keyframes dot-five{
+    
+    0%{background: white;}
+    20%{background: white;}
+    30%{background: white;}
+    40%{background: white;}
+    50%{background: white;}
+    60%{background: white;}
+    70%{background: white;}
+    80%{background: white;}
+    90%{background: black;}
+    91%{background: white;}
+    100%{background: white;}
+}

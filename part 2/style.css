@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+
+.box{
+    
+    width: 750px;
+    height: 510px;
+    box-sizing: border-box;
+    border: 15px solid red;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+div{
+    
+    -webkit-animation: img 10s infinite;
+    -o-animation: img 10s infinite;
+    -moz-animation: img 10s infinite;
+    animation: img 10s infinite;
+}
+
+@-webkit-keyframes img{
+    
+    0%{
+        background: url(image/a.jpg);
+        background-size: cover;
+    }
+    
+    25%{
+        background: url(image/b.jpg);
+        background-size: cover;
+    }
+    50%{
+        background: url(image/c.jpg);
+        background-size: cover;
+    }
+    75%{
+        background: url(image/d.jpg);
+        background-size: cover;
+    }
+    100%{
+        background: url(image/e.jpg);
+        background-size: cover;
+    }
+}
+@-o-keyframes img{
+    
+    0%{
+        background: url(image/a.jpg);
+        background-size: cover;
+    }
+    
+    25%{
+        background: url(image/b.jpg);
+        background-size: cover;
+    }
+    50%{
+        background: url(image/c.jpg);
+        background-size: cover;
+    }
+    75%{
+        background: url(image/d.jpg);
+        background-size: cover;
+    }
+    100%{
+        background: url(image/e.jpg);
+        background-size: cover;
+    }
+}
+
+@-moz-keyframes img{
+    
+    0%{
+        background: url(image/a.jpg);
+        background-size: cover;
+    }
+    
+    25%{
+        background: url(image/b.jpg);
+        background-size: cover;
+    }
+    50%{
+        background: url(image/c.jpg);
+        background-size: cover;
+    }
+    75%{
+        background: url(image/d.jpg);
+        background-size: cover;
+    }
+    100%{
+        background: url(image/e.jpg);
+        background-size: cover;
+    }
+}
+
+@keyframes img{
+    
+    0%{
+        background: url(image/a.jpg);
+        background-size: cover;
+    }
+    
+    25%{
+        background: url(image/b.jpg);
+        background-size: cover;
+    }
+    50%{
+        background: url(image/c.jpg);
+        background-size: cover;
+    }
+    75%{
+        background: url(image/d.jpg);
+        background-size: cover;
+    }
+    100%{
+        background: url(image/e.jpg);
+        background-size: cover;
+    }
+}

@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+
+div{
+    
+    width: 650px;
+    height: 280px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 15px;
+    position:relative;
+    -webkit-box-shadow: 0px 0px 50px green;
+    -o-box-shadow: 0px 0px 50px green;
+    -moz-box-shadow: 0px 0px 50px green;
+    box-shadow: 0px 0px 50px green;
+    overflow: hidden;
+    
+}
+.img{
+    
+    width: 270px;
+    height: 250px;
+    float: left;
+   position: relative;
+    -webkit-animation: image 6s infinite;
+    -o-animation: image 6s infinite;
+    -moz-animation: image 6s infinite;
+    animation: image 6s infinite;
+}
+
+@-webkit-keyframes image{
+    
+    0%{top: 0; left: 0;}
+    10%{top: 0; left: -300px;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+    
+}
+@-o-keyframes image{
+    
+    0%{top: 0; left: 0;}
+    10%{top: 0; left: -300px;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+    
+}
+@-moz-keyframes image{
+    
+    0%{top: 0; left: 0;}
+    10%{top: 0; left: -300px;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+    
+}
+@keyframes image{
+    
+    0%{top: 0; left: 0;}
+    10%{top: 0; left: -300px;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+    
+}
+
+.vivo{
+    
+    font-family: sans-serif;
+ float: left;
+    font-size: 30px;
+    text-shadow: 0px 0px 5px grey;
+      padding: 0;
+    margin: 0;
+    position: relative;
+    -webkit-animation: vivo-text 6s infinite;
+    -o-animation: vivo-text 6s infinite;
+    -moz-animation: vivo-text 6s infinite;
+    animation: vivo-text 6s infinite;
+    animation-delay: 1.2s
+}
+
+@-webkit-keyframes vivo-text{
+    
+      0%{top: -100px; left: 0;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+     
+}
+@-o-keyframes vivo-text{
+    
+      0%{top: -100px; left: 0;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+     
+}
+@-moz-keyframes vivo-text{
+    
+      0%{top: -100px; left: 0;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+     
+}
+@keyframes vivo-text{
+    
+      0%{top: -100px; left: 0;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+     
+}
+
+.price{
+ font-family: sans-serif;
+ float: left;
+    font-size: 27px;
+    margin-left: 50px;
+    text-shadow: 0px 0px 5px grey;
+    padding: 0;
+    position: relative;
+ -webkit-animation: price-text 6s infinite;
+    -o-animation: price-text 6s infinite;
+    -moz-animation: price-text 6s infinite;
+    animation: price-text 6s infinite;
+    animation-delay: 1.2s;
+    
+}
+
+@-webkit-keyframes price-text{
+    
+      0%{top: 0; left: 300px;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+     
+}
+@-o-keyframes price-text{
+    
+      0%{top: 0; left: 300px;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+     
+}
+@-moz-keyframes price-text{
+    
+      0%{top: 0; left: 300px;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+     
+}
+@keyframes price-text{
+    
+      0%{top: 0; left: 300px;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+     
+}
+.btn{
+    
+   
+    width: 100px;
+    height: 60px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 100px;
+    background: inherit;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px grey;
+    padding: 20px;
+    position: relative;
+    top: 200px;
+    left: 0;
+    -webkit-animation: btn 6s infinite;
+    -o-animation: btn 6s infinite;
+    -moz-animation: btn 6s infinite;
+    animation: btn 6s infinite;
+    animation-delay: 1.2s;
+}
+
+@-webkit-keyframes btn{
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+}
+@-o-keyframes btn{
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+}
+@-moz-keyframes btn{
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+}
+@keyframes btn{
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+}
